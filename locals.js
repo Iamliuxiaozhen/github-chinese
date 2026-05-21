@@ -29266,3 +29266,13 @@ I18N["zh-CN"]["repository/agents"] = {
         "Configure": "自定义配置",
     },
 };
+
+I18N["zh-CN"]["advisories"] = { // https://github.com/advisories
+    "static": {
+        "Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.":"安全漏洞数据库，包括 CVE 和 GitHub 来源的安全公告，涵盖开源软件领域。",
+        "GitHub reviewed advisories":"GitHub 审查的安全公告",
+        "Search by CVE/GHSA ID, package, severity, ecosystem, credit…":"通过 CVE/GHSA ID、包、严重程度、生态系统、贡献者等进行搜索…",
+        "All reviewed":"所有审查过的",
+        "Composer":"Composer"
+    }
+}
