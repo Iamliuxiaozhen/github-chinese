@@ -29258,3 +29258,93 @@ I18N["zh-CN"]["repository/agents"] = {
         "Configure": "自定义配置",
     },
 };
+
+I18N["zh-CN"]["advisories"] = { // https://github.com/advisories
+    "static": {
+        "GitHub Advisory Database": "GitHub 安全公告数据库",
+        "Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.": "安全漏洞数据库，包括 CVE 和 GitHub 来源的安全公告，涵盖开源软件领域。",
+
+        // 左侧筛选
+        "GitHub reviewed advisories": "GitHub 审查的安全公告",
+            "All reviewed": "所有已审查",
+            "Composer": "Composer",
+            "Erlang": "Erlang",
+            "GitHub Actions": "GitHub Actions",
+            "Go": "Go",
+            "Maven": "Maven",
+            "npm": "npm",
+            "NuGet": "NuGet",
+            "pip": "pip",
+            "Pub": "Pub",
+            "RubyGems": "RubyGems",
+            "Rust": "Rust",
+            "Swift": "Swift",
+        "Unreviewed advisories": "未审查的安全公告",
+            "All unreviewed": "所有未审查",
+
+        // 帮助链接
+        "CC-BY-4.0 License": "CC-BY-4.0 许可证",
+        "Language support": "语言支持",
+        "About GitHub Advisory Database": "关于 GitHub 安全公告数据库",
+
+        // 筛选和排序
+        "Filter advisories": "筛选安全公告",
+        "Search by CVE/GHSA ID, package, severity, ecosystem, credit…": "通过 CVE/GHSA ID、包、严重程度、生态系统、贡献者等进行搜索…",
+        "Search": "搜索",
+        "Filter options": "筛选选项",
+        "Filter by severity": "按严重程度筛选",
+        "Filter by CWE": "按 CWE 筛选",
+        "Sort by": "排序方式",
+        "Severity": "严重程度",
+        "CWE": "CWE",
+        "Sort": "排序",
+        "All severities": "所有严重程度",
+        "Low": "低危",
+        "Moderate": "中危",
+        "High": "高危",
+        "Critical": "严重",
+        "Newest": "最新",
+        "Oldest": "最早",
+        "Recently updated": "最近更新",
+        "Least recently updated": "最久未更新",
+
+        // 列表和分页
+        "advisories": "安全公告",
+        "was published": "已发布",
+        "for": "适用于",
+        "Pagination": "分页",
+        "Previous page": "上一页",
+        "Previous": "上一页",
+        "Next page": "下一页",
+        "Next": "下一页",
+
+        // 异步加载
+        "Loading": "正在加载",
+        "Uh oh!": "糟糕！",
+        "There was an error while loading.": "加载时出错。",
+        "Please reload this page": "请重新加载此页面",
+
+        // 提示
+        "ProTip!": "专业提示！",
+        "See the advisories you've received credit for with": "查看您获得贡献署名的安全公告，可使用",
+        "Close menu": "关闭菜单",
+    },
+    "regexp": [ // 正则翻译
+        [/(\d[\d,]*) advisories/, "$1 条安全公告"],
+        [/Page (\d+)/, "第 $1 页"],
+        [/Filter by severity - All severities/, "按严重程度筛选 - 所有严重程度"],
+        [/Filter by severity - Low/, "按严重程度筛选 - 低危"],
+        [/Filter by severity - Moderate/, "按严重程度筛选 - 中危"],
+        [/Filter by severity - High/, "按严重程度筛选 - 高危"],
+        [/Filter by severity - Critical/, "按严重程度筛选 - 严重"],
+        [/Sort by - Newest/, "排序方式 - 最新"],
+        [/Sort by - Oldest/, "排序方式 - 最早"],
+        [/Sort by - Recently updated/, "排序方式 - 最近更新"],
+        [/Sort by - Least recently updated/, "排序方式 - 最久未更新"],
+        [/Severity: low/, "严重程度：低危"],
+        [/Severity: moderate/, "严重程度：中危"],
+        [/Severity: high/, "严重程度：高危"],
+        [/Severity: critical/, "严重程度：严重"],
+        [/Credited to (.+)/, "贡献署名给 $1"],
+    ],
+};
