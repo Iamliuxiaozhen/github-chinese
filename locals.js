@@ -13430,6 +13430,13 @@ I18N["zh-CN"]["repository/actions"] = { // 仓库 - 操作页面
 
         // 顶部提示
             "Actions Enabled.": "操作已启用。",
+            "Dismiss notice": "关闭通知",
+            "Upcoming change to GitHub App installation token format": "GitHub App 安装令牌格式即将变更",
+            "GitHub App installation tokens will soon use a new stateless format (ghs_...) and may be longer (~520 characters ).": "GitHub App 安装令牌很快将使用新的无状态格式（ghs_...），并且长度可能更长（约 520 个字符）。",
+            "GitHub App installation tokens will soon use a new stateless format (ghs_...) and may be longer (~520 characters).": "GitHub App 安装令牌很快将使用新的无状态格式（ghs_...），并且长度可能更长（约 520 个字符）。",
+            "Apps with hardcoded length assumptions may break.": "对长度做了硬编码假设的应用可能会出错。",
+            "Validate your apps and workflows with the per-request override header detailed in this": "请使用此处详述的按请求覆盖标头验证您的应用和工作流：",
+            "GitHub Changelog": "GitHub 更新日志",
 
         // 复刻仓库操作页面提示
             "Workflows aren’t being run on this forked repository": "这个分支仓库并未运行任何工作流程。",
